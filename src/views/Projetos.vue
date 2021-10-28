@@ -6,7 +6,7 @@
 <br>
 <div class="columns">
   <div class="column">
-    <div class="card">
+    <div class="card card-rpgvue">
   <header class="card-header">
     <p class="card-header-title">
       Rpg de arena - Vue.js
@@ -28,7 +28,7 @@
  </div> 
   </div>
   <div class="column">
-    <div class="card">
+    <div class="card card-pokedex">
   <header class="card-header">
     <p class="card-header-title">
       Pokedex - Vue.js
@@ -53,7 +53,7 @@
 
 <div class="columns">
   <div class="column">
-    <div class="card">
+    <div class="card card-clones">
   <header class="card-header">
     <p class="card-header-title">
       Clones HTML/CSS/JS
@@ -125,9 +125,29 @@
 
 <style>
 
+
 .Projetos .card{
   background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.397), rgba(0, 0, 0, 0.473)),
   url(../assets/wallpaper2.png);
+  padding: 8px ;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: rgb(8, 0, 83) 6px solid;
+}
+
+
+.Projetos .card-rpgvue{
+  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.712), rgba(0, 0, 0, 0.582)),
+  url(../assets/RPGVUE.jpg);
+}
+
+.Projetos .card-pokedex{
+  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.712), rgba(0, 0, 0, 0.582)),
+  url(../assets/pokedex.jpg);
+}
+.Projetos .card-clones{
+  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.712), rgba(0, 0, 0, 0.582)),
+  url(../assets/CLONES.jpg);
 }
 
 .Projetos{

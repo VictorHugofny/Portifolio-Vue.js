@@ -21,7 +21,16 @@
 }
 
 #nav {
-  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: -webkit-sticky; /* Necessário para funcionar no Safari */
+  position: sticky;
+  top: 0;
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  color:rgb(202, 202, 202);
+  z-index: 1;
 }
 
 #nav a {
