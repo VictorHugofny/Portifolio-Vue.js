@@ -97,6 +97,27 @@
  </div> 
  
   </div>
+
+  <div class="column">
+    <div class="card">
+  <header class="card-header">
+    <p class="card-header-title">
+      Estudos Programacao WEB
+    </p>
+  </header>
+  <div class="card-content">
+    <div class="content">
+      <t> Meus estudos de programação Web  </t>
+      <br>
+    </div>
+  </div>
+  <footer class="card-footer">
+    <a href="https://github.com/VictorHugofny/Programacao-WEB" class="card-footer-item">REPOSITORIO</a>
+  </footer>
+
+
+ </div> 
+ </div> 
   
 </div>
 
