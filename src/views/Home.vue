@@ -1,17 +1,33 @@
 <template>
   <div class="home">
     
-<article class="message is-dark">
+<article class="message is-dark is-large">
   <div class="message-body">
-    <figure class="image is-centered is-128x128 ">
-  <img class="is-rounded " src="../assets/fotoperfil.jpeg"> 
-    </figure> Sou <strong> Victor Hugo </strong>, estudante de Ciencia da computação no IFBaiano, programador Web Frontend estudando tecnologias como Javascript, Html, Css, Vue.js e Node, faço tambem edições de video como hobby onde atuo como freelancer, essa pagina foi construida por mim como portifolio..  </div>
+    
+  <img class="foto" src="../assets/fotoperfil.jpeg" width="200px"> 
+    
+    <h1 class="subtitle is-1">Sobre mim</h1>
+    <h1> Sou <strong> Victor Hugo </strong>, estudante de Ciencia da computação no IFBaiano, Estudando <strong> programação Web </strong> Frontend usando tecnologias como Javascript, Html, Css, Vue.js e Node, faço tambem edições de video como hobby onde atuo como freelancer,  essa pagina foi construida por mim como <strong> portifolio. </strong> </h1> 
+    </div>
 </article>
 
+<div class = "grid-container" id="rodape"> 
+        <div><a href= "mailto:victorhugofny@gmail.com?subject=Hello%20again" target="_blank">
+            <h2><img  src="../assets/gmail.png" widht = '10' > </h2></a></div>
+        <div><a href= "https://www.instagram.com/victorhugofny/?hl=pt" target="_blank">
+            <h2><img src="../assets/instagram-icone-icon-1.png" > </h2></a></div>
+       <div> <a href= "https://github.com/VictorHugofny" target="_blank">
+            <h2><img src="../assets/github.png"> </h2></a></div>
+        <div><a href= "https://www.youtube.com/channel/UC0LxIVk-V0k6LsX_Z251iMw" target="_blank">
+            <h2> <img src="../assets/youtube.png" >  </h2></a></div>
+        
+    </div> </div>
 
 
-  </div>
+
 </template>
+
+
 
 <script>
 // @ is an alias to /src
@@ -24,3 +40,43 @@ export default {
   }
 }
 </script>
+
+<style>
+.Contatos-sobre{
+    align-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.foto{
+  border-radius: 100px;
+}
+
+.grid-container img{
+  width: 40px;
+  height: 40px;
+  margin: 5%;
+}
+.grid-container{
+    align-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: rgba(236, 235, 235, 0.473);
+}
+
+#rodape > div{
+  padding: 0px;
+  width: 20%;
+}
+
+#rodape > div:hover{
+  background-color: rgb(211, 211, 211);
+}
+
+
+</style>

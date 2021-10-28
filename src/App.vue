@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Sobre</router-link> |
+    <div id="nav" class = 'sobre'>
+      <router-link class = 'sobre' to="/">Sobre</router-link> |
       <router-link to="/Projetos">Projetos</router-link> | 
       <router-link to="/Contatos">Contato</router-link>
     </div>
     <router-view/>
+
   </div>
 </template>
+
 
 <style>
 #app {
@@ -15,7 +17,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #ffffff; 
 }
 
 #nav {
@@ -24,11 +26,18 @@
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  font-size: 18px;
+  color: #ffffff;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #42a7b9;
 }
+
+.sobre{
+  background: black;
+}
+
+
 
 </style>
