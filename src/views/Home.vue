@@ -20,6 +20,8 @@
             <h2><img src="../assets/github.png"> </h2></a></div>
         <div><a href= "https://www.youtube.com/channel/UC0LxIVk-V0k6LsX_Z251iMw" target="_blank">
             <h2> <img src="../assets/youtube.png" >  </h2></a></div>
+        <div><a href= "https://www.linkedin.com/in/victor-hugo-santana/" target="_blank">
+            <h2> <img src="../assets/linkedin.png" >  </h2></a></div>
         
     </div> </div>
 

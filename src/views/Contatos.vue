@@ -7,114 +7,19 @@
 <div class="Contatos">
 
 
-<div class="columns">
-
- <a href= "mailto:victorhugofny@gmail.com?subject=Hello%20again" target="_blank"> 
-  <div class="column">
-  <div class="card">
-  <div class="card-content">
-    
-      <div class="media-left">
-        <figure class="image is-48x48">
-          <img src="../assets/gmail.png" alt="Placeholder image">
-        </figure>
-    
-      <div class="media-content">
-        <p class="subtitle is-6">Email</p>
-      </div>
+<div class = "grid-container" id="rodape"> 
+        <div><a href= "mailto:victorhugofny@gmail.com?subject=Hello%20again" target="_blank">
+            <h2><img  src="../assets/gmail.png" widht = '10' > </h2></a></div>
+        <div><a href= "https://www.instagram.com/victorhugofny/?hl=pt" target="_blank">
+            <h2><img src="../assets/instagram-icone-icon-1.png" > </h2></a></div>
+       <div> <a href= "https://github.com/VictorHugofny" target="_blank">
+            <h2><img src="../assets/github.png"> </h2></a></div>
+        <div><a href= "https://www.linkedin.com/in/victor-hugo-santana/" target="_blank">
+            <h2> <img src="../assets/linkedin.png" >  </h2></a></div>
+        <div><a href= "https://www.youtube.com/channel/UC0LxIVk-V0k6LsX_Z251iMw" target="_blank">
+            <h2> <img src="../assets/youtube.png" >  </h2></a></div>
+        
     </div>
-
-  </div>
-</div>
-
-  </div>
- </a>
-
- <a href= "https://www.instagram.com/victorhugofny/?hl=pt" target="_blank"> 
-  <div class="column">
-  <div class="card">
-  <div class="card-content">
-    
-      <div class="media-left">
-        <figure class="image is-48x48">
-          <img src="../assets/github.png" alt="Placeholder image">
-        </figure>
-    
-      <div class="media-content">
-        <p class="subtitle is-6">Github</p>
-      </div>
-    </div>
-  </div>
-</div>
-  </div>
- </a>
-
- <a href= "https://github.com/VictorHugofny" target="_blank"> 
-
-  <div class="column">
-  <div class="card">
-  <div class="card-content">
-    
-      <div class="media-left">
-        <figure class="image is-48x48">
-          <img src="../assets/youtube.png" alt="Placeholder image">
-        </figure>
-    
-      <div class="media-content">
-        <p class="subtitle is-6">Youtube</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-  </div>
-</a>
-
-<a href= "https://github.com/VictorHugofny" target="_blank"> 
-  <div class="column">
-  <div class="card">
-  <div class="card-content">
-    
-      <div class="media-left">
-        <figure class="image is-48x48">
-          <img src="../assets/instagram-icone-icon-1.png" alt="Placeholder image">
-        </figure>
-    
-      <div class="media-content">
-        <p class="subtitle is-6">Instagram</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-  </div>
-</a>
-
-<a href= "https://www.linkedin.com/in/victor-hugo-santana/" target="_blank">
-  <div class="column">
-  <div class="card">
-  <div class="card-content">
-    
-      <div class="media-left">
-        <figure class="image is-48x48">
-          <img src="../assets/linkedin.png" alt="Placeholder image">
-        </figure>
-    
-      <div class="media-content">
-        <p class="subtitle is-6">Linkedin</p>
-      </div>
-    </div>
-  </div>
-</div>
- 
-   
-      
-
-
-  </div>
-</a>
-
-  </div>
 </div>
 </div>
     
