@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Projetos from  '../views/Projetos.vue'
 import Contatos from '../views/Contatos.vue'
+import Audiovisual from '../views/Audiovisual.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/Contatos',
     name: 'Contatos',
     component: Contatos
+  },
+  {
+    path: '/Audiovisual',
+    name: 'Audiovisual',
+    component: Audiovisual
   },
   
 ]

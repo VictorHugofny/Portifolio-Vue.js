@@ -61,7 +61,7 @@
   </header>
   <div class="card-content">
     <div class="content">
-      <t> Clones de sites usando HTML/CSS/JS - Sites como Netflix, Disney+, Spotify, Tinder </t>
+      <t> Clones de sites usando HTML/CSS/JS - Netflix, Disney+, Spotify, Tinder </t>
       <br>
     </div>
   </div>
@@ -74,19 +74,17 @@
  </div> 
   </div>
   <div class="column">
-    <div class="card">
+    <div class="card card-rpgjs">
   <header class="card-header">
     <p class="card-header-title">
       RPG DE ARENA POO.JS
     </p>
   </header>
-  <div class="card">
     <div class="content">
       <br>
       <t> Estudo de POO, criação de um rpg usando objeto </t>
-      <br><br>
+      <br>
     </div>
-  </div>
   <footer class="card-footer">
     <a href="https://victorhugofny.github.io/RPG-DE-ARENA-POO-JS/" class="card-footer-item">SITE</a>
     <a href="https://github.com/VictorHugofny/RPG-DE-ARENA-POO-JS" class="card-footer-item">REPOSITORIO</a>
@@ -118,8 +116,56 @@
 
  </div> 
  </div> 
+
+<div class="columns">
+  <div class="column">
+    <div class="card card-tela">
+  <header class="card-header">
+    <p class="card-header-title">
+      Tela azul fake
+    </p>
+   
+  </header>
+  <div class="card-content">
+    <div class="content">
+     <t> Site para simular uma tela azul, feito com CSS e HTML </t>
+      <br>
+    </div>
+  </div>
+  <footer class="card-footer">
+    <a href="https://victorhugofny.github.io/Tela-Azul-da-Morte-Fake/" class="card-footer-item">SITE</a>
+    <a href="https://github.com/VictorHugofny/Tela-Azul-da-Morte-Fake" class="card-footer-item">REPOSITORIO</a>
+  </footer>
+
+
+ </div> 
+  </div>
+  <div class="column">
+    <div class="card card-perguntas">
+  <header class="card-header">
+    <p class="card-header-title">
+      Projeto Perguntas
+    </p>
+  </header>
+  <div class="card-content">
+    <div class="content">
+      <t> Projeto perguntas e respostas - Js, Node, Express, Bootstrap, Mysql </t>
+      <br>
+    </div>
+  </div>
+  <footer class="card-footer">
+    <a href="https://github.com/VictorHugofny/ProjetoPerguntas" class="card-footer-item">REPOSITORIO</a>
+  </footer>
+
+
+ </div> 
+ </div> 
+
+  </div>
+
+ </div> 
+
   
-</div>
 
 </template>
 
@@ -127,27 +173,42 @@
 
 
 .Projetos .card{
-  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.397), rgba(0, 0, 0, 0.473)),
+  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.507), rgba(0, 0, 0, 0.651)),
   url(../assets/wallpaper2.png);
   padding: 8px ;
   padding-top: 15px;
   padding-bottom: 15px;
-  border: rgb(8, 0, 83) 6px solid;
+  border: rgb(8, 0, 83) 5px solid;
+  border-radius: 16px;
 }
 
 
 .Projetos .card-rpgvue{
-  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.712), rgba(0, 0, 0, 0.582)),
+  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.726), rgba(0, 0, 0, 0.705)),
   url(../assets/RPGVUE.jpg);
 }
 
 .Projetos .card-pokedex{
-  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.712), rgba(0, 0, 0, 0.582)),
+  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.726), rgba(0, 0, 0, 0.705)),
   url(../assets/pokedex.jpg);
 }
 .Projetos .card-clones{
-  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.712), rgba(0, 0, 0, 0.582)),
+  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.726), rgba(0, 0, 0, 0.705)),
   url(../assets/CLONES.jpg);
+}
+
+.Projetos .card-rpgjs{
+  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.726), rgba(0, 0, 0, 0.705)),
+  url(../assets/rpg.jpeg);
+}
+
+.Projetos .card-tela{
+  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.726), rgba(0, 0, 0, 0.705)),
+  url(../assets/telazul.jpg);
+}
+.Projetos .card-perguntas{
+  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.801), rgba(0, 0, 0, 0.795)),
+  url(../assets/wallpaper.jpg);
 }
 
 .Projetos{

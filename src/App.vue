@@ -3,7 +3,9 @@
     <div id="nav" class = 'sobre'>
       <router-link class = 'sobre' to="/">Sobre</router-link> |
       <router-link to="/Projetos">Projetos</router-link> | 
-      <router-link to="/Contatos">Contato</router-link>
+      <router-link to="/Audiovisual">Audiovisual</router-link> |
+      <router-link to="/Contatos">Contato</router-link> 
+      
     </div>
     <router-view/>
 
@@ -21,16 +23,15 @@
 }
 
 #nav {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   position: -webkit-sticky; /* Necessário para funcionar no Safari */
   position: sticky;
   top: 0;
-  height: 50%;
   width: 100%;
   text-align: center;
   color:rgb(202, 202, 202);
-  z-index: 1;
+  z-index: 10;
 }
 
 #nav a {
