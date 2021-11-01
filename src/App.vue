@@ -5,13 +5,17 @@
       <router-link to="/Projetos">Projetos</router-link> | 
       <router-link to="/Audiovisual">Audiovisual</router-link> |
       <router-link to="/Contatos">Contato</router-link> 
-      
     </div>
     <router-view/>
-
   </div>
 </template>
 
+<script>
+
+export default {
+  
+}
+</script>
 
 <style>
 #app {
