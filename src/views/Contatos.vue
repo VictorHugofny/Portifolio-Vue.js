@@ -1,21 +1,14 @@
 <template>
+<ContactsMore/>
 
-<div> 
-<br><br>
-<h1 class="subtitle is-1">Entre em contato</h1>
-<h1 class = "texto">Abaixos <strong> formas de contato </strong>, clicando nos links você sera enviando para cada pagina que deseja </h1> 
-
-<Contacts/>
-
-</div>
-    
 </template>
 
 <script>
-import Contacts from '@/components/Contacts.vue'
+import ContactsMore from '@/components/ContactsMore.vue'
+
 export default {
     components:{
-        Contacts
+        ContactsMore
     }
 }
 </script>

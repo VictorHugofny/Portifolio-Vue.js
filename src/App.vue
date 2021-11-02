@@ -1,19 +1,22 @@
 <template>
   <div id="app">
+    <Contacts/>
     <div id="nav" class = 'sobre'>
-      <router-link class = 'sobre' to="/">Sobre</router-link> |
-      <router-link to="/Projetos">Projetos</router-link> | 
-      <router-link to="/Audiovisual">Audiovisual</router-link> |
-      <router-link to="/Contatos">Contato</router-link> 
+      <router-link to="/"> <p>Sobre</p></router-link> 
+      <router-link to="/Projetos"><p> Projetos</p></router-link> 
+      <router-link to="/Audiovisual"><p> Audiovisual</p></router-link> 
+      <router-link to="/Contatos"><p> Contato </p></router-link> 
     </div>
     <router-view/>
   </div>
 </template>
 
 <script>
-
+import Contacts from '@/components/Contacts.vue'
 export default {
-  
+  components:{
+    Contacts
+  }
 }
 </script>
 
@@ -24,11 +27,28 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff; 
+  background-color:rgb(0, 0, 0);
 }
-
+h1{
+  color: #ffffff;
+  font-size: 44px;
+}
+p{
+  font-size: 22px;
+  color: rgb(177, 177, 177);
+}
+h2{
+  font-size: 22px;
+  color: rgb(177, 177, 177);
+}
+strong{
+  color: aqua;
+}
+.subtitle{
+    color: #ffffff;
+}
 #nav {
-  padding-top: 14px;
-  padding-bottom: 14px;
+  background-color:rgb(17, 17, 17);
   position: -webkit-sticky; /* Necessário para funcionar no Safari */
   position: sticky;
   top: 0;
@@ -36,13 +56,38 @@ export default {
   text-align: center;
   color:rgb(202, 202, 202);
   z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 
 #nav a {
   font-weight: bold;
   font-size: 18px;
+  text-decoration: none;
+  padding: 0;
   color: #ffffff;
 }
+
+#nav p{
+  font-weight: bold;
+  margin: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 30px;
+  padding-right: 30px;
+}
+
+#nav p:hover{
+  color: #00b7ff;
+}
+
+p, h1, h3, h2{
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
 
 #nav a.router-link-exact-active {
   color: #42a7b9;
@@ -51,7 +96,28 @@ export default {
 .sobre{
   background: black;
 }
-
-
+body{
+  margin: 0;
+}
+@media(max-width: 800px){
+  #nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  p, h1, h3, h2{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #nav p{
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+  
+}
 
 </style>

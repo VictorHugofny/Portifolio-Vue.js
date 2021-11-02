@@ -1,8 +1,8 @@
 <template>
 <div> 
     <br>
-    <h1 class="subtitle is-2">Editor AudioVisual</h1>
-    <h1 class="subtitle is-4">Faço edições de video, como lyrics e videoclipes</h1> <br>
+    <h1>Editor AudioVisual</h1>
+    <h2>Faço edições de video, como lyrics e videoclipes</h2> <br>
 
 <figure>
     <div class="boxVideo">
@@ -10,7 +10,7 @@
     </div>
 </figure>
 
-<p class="title is-5 is-spaced">Exemplo de Lyric Video encomendados.</p>
+<p>Exemplo de Lyric Video encomendados.</p>
 
 <figure>
     <div class="boxVideo">
@@ -18,7 +18,7 @@
     </div>
 </figure>
 
-<p class="title is-5 is-spaced">Exemplo de Videoclipes encomendados.</p>
+<p>Exemplo de Videoclipes encomendados.</p>
 
 <figure>
     <div class="boxVideo">
@@ -26,10 +26,11 @@
     </div>
 </figure>
 
-<button class="button is-link" @click='BtnMaisVideos'>Mais videos</button>
+<OtherVideos v-show ='MaisVideos'/>
+<button @click='BtnMaisVideos'><p class="btntext"> Mais videos </p></button>
 
 <br>
-<OtherVideos v-show ='MaisVideos'/>
+
 
 
 </div>
@@ -85,5 +86,19 @@ figure {
     left: 0;
     width: 100%;
     height: 100%;
+}
+button{
+    background-color: turquoise;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(1, 81, 253);
+}
+.btntext{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 </style>

@@ -18,17 +18,16 @@
 <style scoped>
 .grid-container img{
   width: 30px;
-  height: 30px;
-  margin-top: 10px;
 }
 .grid-container{
     align-content: center;
     flex-wrap: nowrap;
     width: 100%;
+    height: 65px;
     display: flex;
     justify-content: center;
     text-align: center;
-    background: rgba(236, 235, 235, 0.473);
+    background: rgba(54, 54, 54, 0.473);
 }
 
 #rodape > div{
@@ -37,6 +36,6 @@
 }
 
 #rodape > div:hover{
-  background-color: rgb(211, 211, 211);
+  background-color: rgba(0, 247, 255, 0.075);
 }
 </style>

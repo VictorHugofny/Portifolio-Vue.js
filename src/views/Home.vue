@@ -1,6 +1,5 @@
 <template>
 <div class="home">
-  <Contacts/>
   <About/>
   <Projects/>
   <Footer/>
@@ -9,7 +8,6 @@
 </template>
 
 <script>
-import Contacts from '@/components/Contacts.vue'
 import About from '@/components/About.vue'
 import Projects from '@/components/Projects.vue'
 import Footer from '@/components/Footer.vue'
@@ -17,7 +15,6 @@ import Footer from '@/components/Footer.vue'
 export default {
   name: 'Home',
   components: {
-    Contacts,
     About,
     Projects,
     Footer
@@ -37,9 +34,7 @@ export default {
     justify-content: center;
     text-align: center;
 }
-.foto{
-  border-radius: 100px;
-}
+
 
 </style>>
 
