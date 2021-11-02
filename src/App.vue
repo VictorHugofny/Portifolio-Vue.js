@@ -100,6 +100,9 @@ body{
   margin: 0;
 }
 @media(max-width: 800px){
+  .Contacts p{
+    font-size: 12px;
+}
   #nav{
     padding-top: 10px;
     padding-bottom: 10px;
