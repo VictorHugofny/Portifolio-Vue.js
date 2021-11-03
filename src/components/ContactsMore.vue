@@ -3,7 +3,6 @@
     <h1>Entre em contato</h1>
     <p>Abaixo <strong> formas de contato</strong>, clicando nos links você sera enviando para cada pagina que deseja </p> 
 
-
 <div class = "Contacts"> 
     <div class = 'Especifico'>
         <p><a href= "mailto:victorhugofny@gmail.com?subject=Hello%20again" target="_blank">
