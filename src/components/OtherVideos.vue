@@ -35,7 +35,7 @@
 }
 
 figure { 
-    width: 60%; 
+    width: 80%; 
     min-width: 16.5em; 
     margin:0 auto;
     }

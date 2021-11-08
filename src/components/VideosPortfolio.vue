@@ -1,8 +1,8 @@
 <template>
 <div> 
     <br>
-    <h1>Editor AudioVisual</h1>
-    <h2>Faço edições de video, como lyrics e videoclipes</h2> <br>
+    <h1>AudioVisual</h1>
+    <p>Faço edições de video, como lyrics e videoclipes</p> <br>
 
 <figure>
     <div class="boxVideo">
@@ -68,7 +68,7 @@ button{
 }
 
 figure { 
-    width: 60%; 
+    width: 80%; 
     min-width: 16.5em; 
     margin:0 auto;
     }
