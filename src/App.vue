@@ -27,7 +27,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff; 
-  background-color:rgb(0, 0, 0);
+  background-color:rgb(25, 25, 25);
 }
 h1{
   color: #ffffff;
@@ -48,7 +48,7 @@ strong{
     color: #ffffff;
 }
 #nav {
-  background-color:rgb(17, 17, 17);
+  background-color:rgb(34, 34, 34);
   position: -webkit-sticky; /* Necessário para funcionar no Safari */
   position: sticky;
   top: 0;
@@ -93,9 +93,7 @@ p, h1, h3, h2{
   color: #42a7b9;
 }
 
-.sobre{
-  background: black;
-}
+
 body{
   margin: 0;
 }
