@@ -19,6 +19,7 @@
 .grid-container img{
   width: 30px;
 }
+
 .grid-container{
     align-content: center;
     flex-wrap: nowrap;
