@@ -109,6 +109,11 @@
   background-size: 400px 220px;
 }
 
+.Projetos button:hover{
+  background-color: rgb(0, 65, 187);
+}
+
+
 .Projetos button{
     border: none;
     border-radius: 10px;
@@ -126,14 +131,13 @@
     font-weight: bold;
 }
 .Projetos h3{
-    background-color: rgba(0, 14, 61, 0.863);
-    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.116);
+    color: rgb(0, 247, 255);
     font-size: 24px;
     margin-left: 10px;
     margin-right: 10px;
 }
 .Projetos p{
-    
     color: white;
 }
 

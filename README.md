@@ -1,4 +1,13 @@
-# portifolio
+<h1 align="center">Portifolio Pessoal</h1>
+
+## Descrição do Projeto
+<h6 align="center">Portifolio pessoal, usando Vue.js, html, css, javascript, pagina web com informações sobre, projetos, contatos.</h6>
+
+## Preview
+<p align="center">
+  <img alt="web" src="src/assets/previa.gif" width="100%">
+</p>
+
 
 ## Project setup
 ```
