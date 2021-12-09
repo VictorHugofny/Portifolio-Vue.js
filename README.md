@@ -9,17 +9,17 @@
 </p>
 
 
-## Project setup
+### Project setup (Configuração do projeto)
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development (Execultando)
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies for production (Modo de produção)
 ```
 npm run build
 ```
@@ -27,7 +27,4 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
