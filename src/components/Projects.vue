@@ -14,6 +14,20 @@
  <h2>Abaixo meus <strong> projetos e estudos</strong>, clicando nos links você pode ver uma versão online e o repositorio de cada projeto </h2> 
 <div class = "container"> 
 
+    <div class = "elogroup" >
+        <h3> Case Fullstack - Elogroup </h3>
+        <p> Desafio para vaga de estagio (ELOGROUP)</p>
+        <button type="submit"><a target="_blank" href="https://elo-group-case-estagio-full-stack.vercel.app/" >SITE</a></button>
+        <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/EloGroup_Case_Estagio_FullStack">REPOSITORIO</a></button>
+    </div> 
+
+    <div class = "nutricionista" >
+        <h3> Nutricionista Online</h3>
+        <p> Criado usando Vue/Vuetify</p>
+        <button type="submit"><a target="_blank" href="https://nutricionista-online.vercel.app/" >SITE</a></button>
+        <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/Nutricionista-Online">REPOSITORIO</a></button>
+    </div> 
+
     <div class = "rpgvue" >
         <h3> Rpg de arena - Vue.js </h3>
         <p> Jogo de rpg criado usando Vue.js </p>
@@ -71,6 +85,17 @@
   border: rgb(1, 139, 163) 3px solid;
   border-radius: 10px;
 }
+
+.elogroup{
+  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.904), rgba(3, 1, 117, 0.493)),
+  url(../assets/fullstack.jpeg);
+}
+
+.nutricionista{
+  background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.904), rgba(3, 1, 117, 0.493)),
+  url(../assets/nutricionista.jpg);
+}
+
 
 .rpgvue{
   background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.904), rgba(3, 1, 117, 0.493)),
