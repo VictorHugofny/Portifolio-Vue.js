@@ -94,6 +94,8 @@ p, h1, h3, h2{
 }
 
 
+
+
 body{
   margin: 0;
 }
@@ -101,6 +103,7 @@ body{
   .Contacts p{
     font-size: 12px;
 }
+
   #nav{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -118,8 +121,30 @@ body{
   padding-right: 10px;
   padding-left: 10px;
 }
-  
 }
+  p, h1, h3, h2{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+@media(min-width: 1800px){
+  p, h1, h3, h2{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .Projetos{
+    margin-left: 10%;
+    margin-right: 10%;
+  }}
+
+@media(min-width: 2400px){
+  p, h1, h3, h2{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .Projetos{
+    margin-left: 10%;
+    margin-right: 10%;
+  }}
 
 
 
