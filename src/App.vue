@@ -128,8 +128,8 @@ body{
   }
 @media(min-width: 1900px){
   p, h1, h3, h2{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
   }
   .Projetos{
     margin-left: 10%;
@@ -138,8 +138,8 @@ body{
 
 @media(min-width: 2400px){
   p, h1, h3, h2{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 150%;
   }
   .Projetos{
     margin-left: 10%;
