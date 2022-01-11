@@ -126,7 +126,7 @@ body{
     margin-left: 5%;
     margin-right: 5%;
   }
-@media(min-width: 1800px){
+@media(min-width: 1900px){
   p, h1, h3, h2{
     margin-left: 10%;
     margin-right: 10%;
