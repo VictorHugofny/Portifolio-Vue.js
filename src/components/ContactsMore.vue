@@ -61,7 +61,6 @@ a{
 }
 
 .Especifico{
-    background-color: rgb(17, 17, 17);
     border: turquoise 1px solid;
     padding: 20px;
     margin-bottom: 16px;

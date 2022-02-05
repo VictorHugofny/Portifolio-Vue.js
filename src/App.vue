@@ -1,14 +1,17 @@
 <template>
   <div id="app">
-    <Contacts/>
+    
     <div id="nav" class = 'sobre'>
       <router-link to="/"> <p>Sobre</p></router-link> 
       <router-link to="/Projetos"><p> Projetos</p></router-link> 
       <router-link to="/Audiovisual"><p> Audiovisual</p></router-link> 
       <router-link to="/Contatos"><p> Contato </p></router-link> 
+      
     </div>
     <router-view/>
+    <Contacts/>
   </div>
+  
 </template>
 
 <script>
@@ -27,7 +30,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff; 
-  background-color:rgb(25, 25, 25);
+  background-color:rgb(24, 24, 24);
 }
 h1{
   color: #ffffff;
@@ -42,13 +45,13 @@ h2{
   color: rgb(177, 177, 177);
 }
 strong{
-  color: aqua;
+  color: #00ffff;
 }
 .subtitle{
     color: #ffffff;
 }
 #nav {
-  background-color:rgb(34, 34, 34);
+  background-color:#272727;
   position: -webkit-sticky; /* Necessário para funcionar no Safari */
   position: sticky;
   top: 0;
@@ -80,7 +83,7 @@ strong{
 }
 
 #nav p:hover{
-  color: #00b7ff;
+  color: #00ffff;
 }
 
 p, h1, h3, h2{
@@ -98,12 +101,17 @@ p, h1, h3, h2{
 
 body{
   margin: 0;
+  background: #eb0000;
 }
 @media(max-width: 800px){
   .Contacts p{
     font-size: 12px;
 }
-
+  .foto{
+    border-radius: 150px;
+    border: #191919 5px solid;
+    margin-left:0px;
+}
   #nav{
     padding-top: 10px;
     padding-bottom: 10px;

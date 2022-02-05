@@ -69,12 +69,12 @@
 <style>
 
 .container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 15px;
-    margin-right: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .container > div {
   margin-left: 5px;
@@ -82,7 +82,7 @@
   margin-bottom: 10px;
   flex: 10 10 40%;
   text-align: center;
-  border: rgb(1, 139, 163) 3px solid;
+  border: #2e2e2e 4px solid;
   border-radius: 10px;
 }
 
@@ -95,7 +95,6 @@
   background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.904), rgba(3, 1, 117, 0.493)),
   url(../assets/nutricionista.jpg);
 }
-
 
 .rpgvue{
   background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.904), rgba(3, 1, 117, 0.493)),
@@ -135,9 +134,8 @@
 }
 
 .Projetos button:hover{
-  background-color: rgb(0, 65, 187);
+  background-color: rgba(47, 0, 255, 0.158);
 }
-
 
 .Projetos button{
     border: none;
@@ -147,23 +145,26 @@
     margin-left: 10px;
     padding-left:40px;
     padding-right: 40px;
-    background-color: rgb(1, 140, 253);
+    background: #1d1d1d;
+    border: #3691e7 1px solid;
 }
 .Projetos a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #3691e7 ;
     font-size: 16px;
     font-weight: bold;
 }
 .Projetos h3{
-    background-color: rgba(0, 0, 0, 0.116);
-    color: rgb(0, 247, 255);
+    background-color: rgba(0, 37, 117, 0.116);
+    color: #36d8e7;
     font-size: 24px;
     margin-left: 10px;
     margin-right: 10px;
 }
 .Projetos p{
-    color: white;
+    color: rgb(202, 200, 200);
+    font-weight: bolder;
+    font-size: 19px;
 }
 
 </style>

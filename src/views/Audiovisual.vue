@@ -12,8 +12,6 @@ export default {
 }
 </script>
 
-
-
 <style>
 div > iframe{
    margin-left : 10px;

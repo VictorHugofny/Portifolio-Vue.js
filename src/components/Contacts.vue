@@ -28,7 +28,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    background: rgba(54, 54, 54, 0.473);
+    background: rgb(39, 39, 39);
 }
 
 #rodape > div{

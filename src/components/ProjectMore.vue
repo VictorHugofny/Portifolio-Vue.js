@@ -12,7 +12,7 @@
       <h3>Portifolio HTML-CSS</h3>
       <p> Meu portifolio criado usando HTML e CSS</p>
       <button type="submit"><a target="_blank" href="https://victorhugofny.github.io/" class="card-footer-item">SITE</a></button>
-      <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/VictorHugofny.github.io" class="card-footer-item">REPOSITORIO</a></button>
+      <button type="submit" class = "segundo"><a target="_blank" href="https://github.com/VictorHugofny/VictorHugofny.github.io" class="card-footer-item">REPOSITORIO</a></button>
     </div> 
   </div> 
 </div> 

@@ -23,16 +23,17 @@ export default {
 </script>
 
 <style scoped>
-.home .footer{
-  background: rgb(0, 0, 0);
-}
 .Contatos-sobre{
+    background: white 3px solid;
     align-content: center;
     flex-wrap: nowrap;
     width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
+}
+.home{
+  background: white 3px solid;
 }
 
 
