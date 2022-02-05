@@ -102,7 +102,6 @@ p, h1, h3, h2{
 
 body{
   margin: 0;
-  background: #eb0000;
 }
 @media(max-width: 800px){
   .Contacts p{
