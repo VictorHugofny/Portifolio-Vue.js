@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Azeret Mono
+- Font Author: Copyright 2021 The Azeret Project Authors (https://github.com/displaay/azeret)
+- Font Source: http://fonts.gstatic.com/s/azeretmono/v8/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfnPVh0raa-5s3AA.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
