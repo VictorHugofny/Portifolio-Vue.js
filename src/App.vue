@@ -62,6 +62,7 @@ strong{
   display: flex;
   justify-content: center;
   align-items: baseline;
+  
 }
 
 #nav a {

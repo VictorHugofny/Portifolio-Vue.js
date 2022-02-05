@@ -32,7 +32,7 @@ div{
    padding: 20px;
     display: flex;
     background: rgb(27, 27, 27);
-    border: #272727 5px solid;
+    border-bottom: #272727 5px solid;
     padding-bottom: 20px;
     flex-wrap: wrap;
     align-content: center;
