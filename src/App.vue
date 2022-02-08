@@ -97,9 +97,6 @@ p, h1, h3, h2{
   color: #42a7b9;
 }
 
-
-
-
 body{
   margin: 0;
 }
