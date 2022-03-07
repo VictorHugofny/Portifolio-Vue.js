@@ -1,6 +1,5 @@
 <template>
 <div class="Projetos">
-
     <h1 class="subtitle is-1 is-$white">Projetos</h1>
     <h2> A seguir meus <strong> estudos</strong>, sobre programação web</h2> 
     <br>
