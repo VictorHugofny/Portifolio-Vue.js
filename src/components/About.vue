@@ -40,7 +40,6 @@ div{
     justify-content: center;
     align-items: center
 }
-
 .flex p {
   color: #0358a8;
 }
@@ -71,4 +70,3 @@ a{
   color: #3691e7;
 }
 </style>
-

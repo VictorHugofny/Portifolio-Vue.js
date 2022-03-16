@@ -20,11 +20,10 @@
         <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/EloGroup_Case_Estagio_FullStack">REPOSITORIO</a></button>
     </div> 
 
-    <div class = "nutricionista" >
-        <h3> Nutricionista Online</h3>
-        <p> Criado usando Vue/Vuetify</p>
-        <button type="submit"><a target="_blank" href="https://nutricionista-online.vercel.app/" >SITE</a></button>
-        <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/Nutricionista-Online">REPOSITORIO</a></button>
+    <div class = "universitarioWorld" >
+        <h3> Universitario World</h3>
+        <p> Jogo desenvolvido na Unity Engine</p>
+        <button type="submit"><a target="_blank" href="https://gamejolt.com/games/UniversitarioWorld/480550" >SITE</a></button>
     </div> 
 
     <div class = "rpgvue" >
@@ -90,9 +89,9 @@
   url(../assets/fullstack.jpeg);
 }
 
-.nutricionista{
+.universitarioWorld{
   background-image: linear-gradient(to bottom, rgba(0, 12, 10, 0.904), rgba(3, 1, 117, 0.493)),
-  url(../assets/nutricionista.jpg);
+  url(../assets/ifinho.jpg);
 }
 
 .rpgvue{

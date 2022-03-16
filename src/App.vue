@@ -4,7 +4,7 @@
     <div id="nav" class = 'sobre'>
       <router-link to="/"> <p>Sobre</p></router-link> 
       <router-link to="/Projetos"><p> Projetos</p></router-link> 
-      <router-link to="/Audiovisual"><p> Audiovisual</p></router-link> 
+      <router-link to="/Academico"><p> Académico</p></router-link> 
       <router-link to="/Contatos"><p> Contato </p></router-link> 
       
     </div>

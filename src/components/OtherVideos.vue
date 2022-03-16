@@ -1,29 +1,21 @@
 <template>
 <div> 
 
-<figure>
-    <div class="boxVideo">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/DEkCnltgkK0" frameborder="0" allowfullscreen></iframe> 
+    <div class="trabalhos"> 
+        <br>
+        <h2>CodeCast - Desenvolvimento de software, O Mítico Homem-Mês (Engenharia de Software)</h2> <br>
+        <p>Um episodio de PODCAST desenvolvido junto com outros colegas na faculdade</p> 
+        <br>
+        <a> Publicado em 23 de julho de 2021</a><br>
+        <br>
+        
+        <figure>
+            <div class="boxVideo">
+                <iframe width="350" height="180" src="https://www.youtube.com/embed/1LFAFQxgNwk" frameborder="0" allowfullscreen></iframe> 
+            </div>
+        </figure>
+        <br><br>
     </div>
-</figure>
-
-<figure>
-    <div class="boxVideo">
-        <iframe width="330" height="180" src="https://www.youtube.com/embed/KsPCbEC77z8" frameborder="0" allowfullscreen></iframe> 
-    </div>
-</figure>
-
-<figure>
-    <div class="boxVideo">
-        <iframe width="330" height="180" src="https://www.youtube.com/embed/4nMVH687Ejg" frameborder="0" allowfullscreen></iframe> 
-    </div>
-</figure>
-
-<figure>
-    <div class="boxVideo">
-        <iframe width="330" height="180" src="https://www.youtube.com/embed/dH2ZD4ddTCU" frameborder="0" allowfullscreen></iframe> 
-    </div>
-</figure>
 
 </div>
 </template>
@@ -32,6 +24,9 @@
 *{
     padding: 0;
     margin: 0;
+}
+h2{
+    color: white;
 }
 
 figure { 
