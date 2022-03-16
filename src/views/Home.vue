@@ -1,8 +1,6 @@
 <template>
 <div class="home">
   <About/>
-  <Projects/>
-  <Scholar/>
   <Footer/>
 </div>
 
@@ -10,17 +8,13 @@
 
 <script>
 import About from '@/components/About.vue'
-import Projects from '@/components/Projects.vue'
 import Footer from '@/components/Footer.vue'
-import Scholar from '@/components/Scholar.vue'
 
 export default {
   name: 'Home',
   components: {
     About,
-    Projects,
-    Footer,
-    Scholar
+    Footer
   }
 }
 </script>

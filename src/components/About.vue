@@ -1,21 +1,64 @@
 <template>
-
+<div>
 <div>
   <div class="flex">
     <div>
       <img class="foto" src="../assets/fotoperfil.jpeg" width="200px"> 
     </div>
 
-    <div>
+  <div>
       <h1>Victor Hugo</h1>
       <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny">GITHUB</a></button>
       <button class = "segundo" type="submit"><a target="_blank" href="https://www.linkedin.com/in/victor-hugo-santana/">Linkedin</a></button>
-    </div>
+  </div>
 
  </div>
         <h1>Sobre mim</h1>
-        <p>Sou <strong> Victor Hugo</strong>, estudante de Ciencia da computação no IFBaiano, Sou <strong> desenvolvedor </strong> uso tecnologias como <strong>Javascript, Html, Css, Vue.js e Node, </strong>  essa pagina foi construida por mim como <strong> portifolio </strong> usando o framework <strong> Vue.js</strong>, faço tambem edições de video como hobby onde atuo como freelancer </p> 
+        <p>Sou <strong> Victor Hugo</strong>, estudante de Ciencia da computação no IFBaiano, Sou <strong> desenvolvedor </strong> uso tecnologias como <strong>Javascript, Html, Css, Vue.js e Node, </strong>  essa pagina foi construida por mim como <strong> portifolio </strong> usando o framework <strong> Vue.js</strong>, Estagiando como programador <strong>Fullstack na Elogroup</strong> 
+ </p> 
 </div>   
+<br>
+
+<div>
+
+<h1>Conhecimentos</h1>
+<div>
+  <div class= "flex">
+    <img src="../assets/javascript.png" width="80px">
+    <h2>Javascript</h2>
+    <img src="../assets/Vue-logo-1.png" width="80px">
+    <h2>VueJS</h2>
+  </div>
+  <div class= "flex">
+    <img src="../assets/html.png" width="80px">
+    <h2>HTML</h2>
+    <img src="../assets/css.png" width="80px">
+    <h2>CSS</h2>
+  </div>
+  <div class= "flex">
+    <h2>Utilização das práticas Scrum, metodologia ágil</h2>
+  </div>
+  <div class= "flex">
+    <h2>Mobile first</h2>
+  </div>
+
+
+<h1>Experiência</h1>
+  <div class="flex">
+    <img src="../assets/elogroup.jpg" width="100px">
+    <h2>Estagiário | Desenvolvedor (EloGroup)</h2>
+  </div>
+<h1>Formação</h1>
+<div>
+  <div class= "flex">
+  <img src="../assets/ifbaiano.jpg" width="100px">
+  <h2>Cursando Ciencia da computação no Instituto Federal de Educação, Ciência e Tecnologia Baiano</h2>
+</div>
+
+</div>
+</div>
+</div>   
+</div>
 </template>
 
 <style scoped>
