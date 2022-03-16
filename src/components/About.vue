@@ -26,6 +26,8 @@
   <div class= "flex">
     <img src="../assets/javascript.png" width="80px">
     <h2>Javascript</h2>
+  </div>
+  <div class= "flex">
     <img src="../assets/Vue-logo-1.png" width="80px">
     <h2>VueJS</h2>
   </div>
@@ -43,22 +45,10 @@
   </div>
 
 
-<h1>Experiência</h1>
-  <div class="flex">
-    <img src="../assets/elogroup.jpg" width="100px">
-    <h2>Estagiário | Desenvolvedor (EloGroup)</h2>
-  </div>
-<h1>Formação</h1>
-<div>
-  <div class= "flex">
-  <img src="../assets/ifbaiano.jpg" width="100px">
-  <h2>Cursando Ciencia da computação no Instituto Federal de Educação, Ciência e Tecnologia Baiano</h2>
-</div>
-
 </div>
 </div>
 </div>   
-</div>
+
 </template>
 
 <style scoped>
