@@ -1,4 +1,4 @@
-<template>
+<template class = "academico">
 <div>
 <Scholar/>
 <OtherVideos v-show ='MaisVideos'/>
@@ -32,6 +32,7 @@ export default {
 </script>
 
 <style>
+
 .btntext{
     color: white;
     font-size: 20px;
@@ -39,7 +40,7 @@ export default {
 }
 button{
     background-color: turquoise;
-    padding: 20px;
+    padding: 0px;
     padding-left: 100px;
     padding-right: 100px;
     border: none;
@@ -48,6 +49,7 @@ button{
 }
 
 button{
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 </style>
