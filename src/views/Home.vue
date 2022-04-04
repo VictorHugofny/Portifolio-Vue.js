@@ -2,6 +2,9 @@
 <div class="home">
   <About/>
   <Footer/>
+  <div>
+        <img src="../assets/fantasma.gif" width="105px" height="110">
+  </div>
 </div>
 
 </template>
@@ -33,8 +36,8 @@ export default {
   background: white 3px solid;
 }
 Footer{
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 0px;
 }
 
 

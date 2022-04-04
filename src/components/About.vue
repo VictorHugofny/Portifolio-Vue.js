@@ -1,16 +1,20 @@
 <template>
 <div>
 <div>
+  
   <div class="flex">
     <div>
       <img class="foto" src="../assets/foto.gif" width="200px"> 
     </div>
 
   <div>
-      <h1>Victor Hugo</h1>
+      
+      <h1>Victor Hugo</h1> 
       <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny">GITHUB</a></button>
       <button class = "segundo" type="submit"><a target="_blank" href="https://www.linkedin.com/in/victor-hugo-santana/">Linkedin</a></button>
   </div>
+
+  
 
  </div>
         <h1>Sobre mim</h1>
