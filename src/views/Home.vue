@@ -32,6 +32,10 @@ export default {
 .home{
   background: white 3px solid;
 }
+Footer{
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
 
 
 </style>>

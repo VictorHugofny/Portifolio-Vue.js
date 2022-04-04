@@ -24,11 +24,12 @@
 <h1>Conhecimentos</h1>
 <div>
   <div class= "icons">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" width="60px">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/vuejs/vuejs-original.svg" width="70px">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="60px">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="60px">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" width="55px">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/vuejs/vuejs-original.svg" width="55px">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="55px">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="55px">
   </div>
+
 
   <div class= "flex">
     <h2>Utilização das práticas Scrum, metodologia ágil</h2>
@@ -36,6 +37,7 @@
   <div class= "flex">
     <h2>Mobile first</h2>
   </div>
+ 
 
 
 </div>
@@ -48,14 +50,16 @@
 .foto{
   border-radius: 150px;
   border:  hsl(0, 0%, 25%) 2px solid;
-  margin-right: 10px;
 }
 div{
   padding: 0px;
   margin-top: 0px;
 }
+.infos{
+  margin-top: 40px;
+}
 .flex{
-   padding: 20px;
+    padding: 20px;
     display: flex;
     background: rgb(27, 27, 27);
     border-bottom: #272727 5px solid;
@@ -66,18 +70,21 @@ div{
     justify-content: center;
     align-items: center
 }
+.conhecimentos{
+  width: 550px;
+}
 .flex p {
   color: #0358a8;
 }
 .icons img{
-  padding: 20px;
+  padding: 10px;
 }
 .icons{
+  padding: 10px;
   border-bottom: #272727 5px solid;
   background: #1d1d1d;
 }
 .icons :hover{
-  width: 90px;
   background-color: #00ffea4a;
 }
 button{

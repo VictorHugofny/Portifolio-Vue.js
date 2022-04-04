@@ -16,7 +16,7 @@
         <br>
         <iframe class = "artigo" src="https://editorarealize.com.br/editora/anais/conedu/2021/TRABALHO_EV150_MD1_SA119_ID1208_22092021174849.pdf#zoom=92" width="90%" height="600" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
         <br><br>
-        <a target="_blank" href="https://editorarealize.com.br/artigo/visualizar/80791"><button> <p class="btntext"> Link da publicação </p></button></a>
+        <a target="_blank" href="https://editorarealize.com.br/artigo/visualizar/80791"><button> <p class="btntext"> Publicação </p></button></a>
     </div>
     <div class="trabalhos"> 
         <br>
@@ -28,13 +28,13 @@
 
         <figure>
             <div class="boxVideo">
-                <iframe width="350" height="180" src="https://www.youtube.com/embed/h5i7P6rqAhU" frameborder="0" allowfullscreen></iframe> 
+                <iframe width="250" height="180" src="https://www.youtube.com/embed/h5i7P6rqAhU" frameborder="0" allowfullscreen></iframe> 
             </div>
         </figure>
 
         <figure>
             <div class="boxVideo">
-                <iframe width="350" height="180" src="https://www.youtube.com/embed/HBbky2hqbOg" frameborder="0" allowfullscreen></iframe> 
+                <iframe width="250" height="180" src="https://www.youtube.com/embed/HBbky2hqbOg" frameborder="0" allowfullscreen></iframe> 
             </div>
         </figure>
 
@@ -57,9 +57,7 @@
     padding: 0;
     margin: 0;
 }
-button{
-    margin-bottom: 20px;
-}
+
 
 figure { 
     width: 80%; 
@@ -84,8 +82,9 @@ figure {
 button{
     background-color: turquoise;
     padding: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
     border: none;
     border-radius: 10px;
     background-color: rgb(1, 81, 253);
@@ -103,6 +102,8 @@ h2{
 }
 .trabalhos{
     border-top: 5px solid rgb(47, 47, 47);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 figure { 

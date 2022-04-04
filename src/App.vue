@@ -4,9 +4,7 @@
     <div id="nav" class = 'sobre'>
       <router-link to="/"> <p>Sobre</p></router-link> 
       <router-link to="/Projetos"><p> Projetos</p></router-link> 
-      <router-link to="/Academico"><p> Académico</p></router-link> 
-      <router-link to="/Contatos"><p> Contato </p></router-link> 
-      
+      <router-link to="/Academico"><p> Académico</p></router-link>       
     </div>
     <router-view/>
     <Contacts/>
@@ -76,7 +74,7 @@ strong{
 #nav p{
   font-weight: bold;
   margin: 10px;
-  font-size: 20px;
+  font-size: 24px;
   color: #ffffff;
   text-decoration: none;
   padding-right: 30px;
@@ -120,7 +118,7 @@ body{
   #nav p{
   margin: 0;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   color: #ffffff;
   text-decoration: none;
   padding-right: 10px;

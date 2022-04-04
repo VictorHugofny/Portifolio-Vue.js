@@ -1,20 +1,16 @@
 <template class = "academico">
 <div>
 <Scholar/>
-<OtherVideos v-show ='MaisVideos'/>
-<button @click='BtnMaisVideos'><p class="btntext"> Mais Conteudo </p></button>
-<a target="_blank" href="https://www.youtube.com/channel/UCmplSMpzK73aHzJQeR45gOQ/"><button> <p class="btntext"> Canal do Youtube </p></button></a>
+<a target="_blank" href="https://www.youtube.com/channel/UCmplSMpzK73aHzJQeR45gOQ/"><button> <p class="btntext"> Youtube </p></button></a>
 </div>
 </template>
 
 <script>
 import Scholar from '@/components/Scholar.vue'
-import OtherVideos from '@/components/OtherVideos.vue'
 
 export default {
     components:{
         Scholar,
-        OtherVideos
     },
   data(){
       return{
@@ -41,15 +37,12 @@ export default {
 button{
     background-color: turquoise;
     padding: 0px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 70px;
+    margin-bottom: 30px;
+    padding-right: 70px;
     border: none;
     border-radius: 10px;
-    background-color: rgb(1, 81, 253);
+    background-color: rgb(246, 41, 41);
 }
 
-button{
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
 </style>
