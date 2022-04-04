@@ -33,7 +33,7 @@ export default {
   background: white 3px solid;
 }
 Footer{
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 

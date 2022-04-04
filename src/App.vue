@@ -74,7 +74,7 @@ strong{
 #nav p{
   font-weight: bold;
   margin: 10px;
-  font-size: 24px;
+  font-size: 20px;
   color: #ffffff;
   text-decoration: none;
   padding-right: 30px;
