@@ -23,20 +23,13 @@
 
 <h1>Conhecimentos</h1>
 <div>
-  <div class= "flex">
-    <img src="../assets/javascript.png" width="80px">
-    <h2>Javascript</h2>
+  <div class= "icons">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" width="60px">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/vuejs/vuejs-original.svg" width="70px">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="60px">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="60px">
   </div>
-  <div class= "flex">
-    <img src="../assets/Vue-logo-1.png" width="80px">
-    <h2>VueJS</h2>
-  </div>
-  <div class= "flex">
-    <img src="../assets/html.png" width="80px">
-    <h2>HTML</h2>
-    <img src="../assets/css.png" width="80px">
-    <h2>CSS</h2>
-  </div>
+
   <div class= "flex">
     <h2>Utilização das práticas Scrum, metodologia ágil</h2>
   </div>
@@ -75,6 +68,17 @@ div{
 }
 .flex p {
   color: #0358a8;
+}
+.icons img{
+  padding: 20px;
+}
+.icons{
+  border-bottom: #272727 5px solid;
+  background: #1d1d1d;
+}
+.icons :hover{
+  width: 90px;
+  background-color: #00ffea4a;
 }
 button{
     border: none;
