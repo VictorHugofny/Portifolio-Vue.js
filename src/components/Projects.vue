@@ -43,8 +43,8 @@
     <div class = "clones" >
         <h3> Clones HTML/CSS/JS </h3>
         <p> Clones de sites usando HTML/CSS/JS - Netflix, Disney+, Spotify, Tinder </p>
-        <button type="submit"><a target="_blank" href="https://rpg-de-arena-vue-js.vercel.app" class="card-footer-item">SITE</a></button> 
-        <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/Rpg-de-Arena-Vue.js" class="card-footer-item">REPOSITORIO</a></button>   
+        <button type="submit"><a target="_blank" href="https://victorhugofny.github.io/Clones-HTML-CSS-JAVASCRIPT/" class="card-footer-item">SITE</a></button> 
+        <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/Clones-HTML-CSS-JAVASCRIPT" class="card-footer-item">REPOSITORIO</a></button>    
     </div> 
 
     <div class = "rpgjs" >
