@@ -4,7 +4,7 @@
   
   <div class="flex">
     <div>
-      <img class="foto" src="../assets/foto.gif" width="200px"> 
+      <img class="foto" src="../assets/fotoperfil.jpeg" width="200px"> 
     </div>
 
   <div>
