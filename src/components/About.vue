@@ -10,8 +10,8 @@
   <div>
       
       <h1>Victor Hugo</h1> 
-      <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny">GITHUB</a></button>
-      <button class = "segundo" type="submit"><a target="_blank" href="https://www.linkedin.com/in/victor-hugo-santana/">Linkedin</a></button>
+      <a target="_blank" href="https://github.com/VictorHugofny"><button type="submit">GITHUB</button></a>
+      <a target="_blank" href="https://www.linkedin.com/in/victor-hugo-santana/"><button class = "segundo" type="submit">Linkedin</button></a>
   </div>
 
   
@@ -104,7 +104,7 @@ button{
 button:hover{
   background-color: #3d3d3d;
 }
-a{
+a, button{
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 16px;

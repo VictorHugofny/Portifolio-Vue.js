@@ -7,7 +7,7 @@
     <div class = "github" >
         <h1> GITHUB </h1>
         <h2> Perfil do meu Github como todos repositorios presentes </h2>
-        <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny">GITHUB</a></button>
+        <a target="_blank" href="https://github.com/VictorHugofny"><button type="submit">GITHUB</button></a>
     </div> 
 </div> 
  <h2>Abaixo meus <strong> projetos e estudos</strong>, clicando nos links você pode ver uma versão online e o repositorio de cada projeto </h2> 
@@ -16,48 +16,48 @@
     <div class = "elogroup" >
         <h3> Case Fullstack - Elogroup </h3>
         <p> Desafio para vaga de estagio (ELOGROUP)</p>
-        <button type="submit"><a target="_blank" href="https://elo-group-case-estagio-full-stack.vercel.app/" >SITE</a></button>
-        <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/EloGroup_Case_Estagio_FullStack">REPOSITORIO</a></button>
+        <a target="_blank" href="https://elo-group-case-estagio-full-stack.vercel.app/" ><button type="submit">SITE</button></a>
+        <a target="_blank" href="https://github.com/VictorHugofny/EloGroup_Case_Estagio_FullStack"><button type="submit">REPOSITORIO</button></a>
     </div> 
 
     <div class = "universitarioWorld" >
         <h3> Universitario World</h3>
         <p> Jogo desenvolvido na Unity Engine</p>
-        <button type="submit"><a target="_blank" href="https://gamejolt.com/games/UniversitarioWorld/480550" >SITE</a></button>
+        <a target="_blank" href="https://gamejolt.com/games/UniversitarioWorld/480550" ><button type="submit">SITE</button></a>
     </div> 
 
     <div class = "rpgvue" >
         <h3> Rpg de arena - Vue.js </h3>
         <p> Jogo de rpg criado usando Vue.js </p>
-        <button type="submit"><a target="_blank" href="https://rpg-de-arena-vue-js.vercel.app" >SITE</a></button>
-        <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/Rpg-de-Arena-Vue.js">REPOSITORIO</a></button>
+        <a target="_blank" href="https://rpg-de-arena-vue-js.vercel.app" ><button type="submit"></button>SITE</a>
+        <a target="_blank" href="https://github.com/VictorHugofny/Rpg-de-Arena-Vue.js"><button type="submit">REPOSITORIO</button></a>
     </div> 
 
     <div class = "pokedex" >
         <h3> Pokedex - Vue.js </h3>
         <p> Projeto pokedex usando Vue.js, Axios, PokeAPI </p>
-        <button type="submit"><a target="_blank" href="https://pokedex-vue-js-ten.vercel.app/">SITE</a></button>
-        <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/Pokedex-Vue.js">REPOSITORIO</a></button>
+        <a target="_blank" href="https://pokedex-vue-js-ten.vercel.app/"><button type="submit">SITE</button></a>
+        <a target="_blank" href="https://github.com/VictorHugofny/Pokedex-Vue.js"><button type="submit">REPOSITORIO</button></a>
     </div> 
 
     <div class = "clones" >
         <h3> Clones HTML/CSS/JS </h3>
         <p> Clones de sites usando HTML/CSS/JS - Netflix, Disney+, Spotify, Tinder </p>
-        <button type="submit"><a target="_blank" href="https://victorhugofny.github.io/Clones-HTML-CSS-JAVASCRIPT/" class="card-footer-item">SITE</a></button> 
-        <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/Clones-HTML-CSS-JAVASCRIPT" class="card-footer-item">REPOSITORIO</a></button>    
+        <a target="_blank" href="https://victorhugofny.github.io/Clones-HTML-CSS-JAVASCRIPT/" class="card-footer-item"><button type="submit">SITE</button> </a>
+        <a target="_blank" href="https://github.com/VictorHugofny/Clones-HTML-CSS-JAVASCRIPT" class="card-footer-item"><button type="submit">REPOSITORIO</button>   </a> 
     </div> 
 
     <div class = "rpgjs" >
         <h3> RPG DE ARENA POO.JS </h3>
         <p> Estudo de POO, criação de um rpg usando objeto </p>
-        <button type="submit"><a target="_blank" href="https://victorhugofny.github.io/RPG-DE-ARENA-POO-JS/" class="card-footer-item">SITE</a></button> 
-        <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/RPG-DE-ARENA-POO-JS" class="card-footer-item">REPOSITORIO</a></button>   
+        <a target="_blank" href="https://victorhugofny.github.io/RPG-DE-ARENA-POO-JS/" class="card-footer-item"><button type="submit">SITE</button> </a>
+        <a target="_blank" href="https://github.com/VictorHugofny/RPG-DE-ARENA-POO-JS" class="card-footer-item"><button type="submit">REPOSITORIO</button>  </a> 
     </div>
 
     <div class = "progracaoweb">
         <h3> Estudos Programacao WEB </h3>
         <p> Meus estudos de programação Web </p>
-        <button type="submit"><a target="_blank" href="https://github.com/VictorHugofny/Programacao-WEB" >REPOSITORIO</a> </button>
+        <a target="_blank" href="https://github.com/VictorHugofny/Programacao-WEB" ><button type="submit">REPOSITORIO</button></a> 
     </div> 
 
     </div> 
@@ -75,8 +75,8 @@
   margin-right: 15px;
 }
 .container > div {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 10px;
   flex: 10 10 40%;
   text-align: center;
@@ -146,7 +146,7 @@
     background: #1d1d1d;
     border: #3691e7 1px solid;
 }
-.Projetos a{
+.Projetos a, button{
     text-decoration: none;
     color: #3691e7 ;
     font-size: 16px;
