@@ -24,7 +24,6 @@ export default {
 
 <style scoped>
 .Contatos-sobre{
-    background: white 3px solid;
     align-content: center;
     flex-wrap: nowrap;
     width: 100%;
@@ -32,9 +31,7 @@ export default {
     justify-content: center;
     text-align: center;
 }
-.home{
-  background: white 3px solid;
-}
+
 Footer{
   margin-top: 40px;
   margin-bottom: 0px;

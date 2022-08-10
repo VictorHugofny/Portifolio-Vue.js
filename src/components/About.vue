@@ -65,8 +65,8 @@ div{
 .flex{
     padding: 20px;
     display: flex;
-    background: rgb(27, 27, 27);
-    border-bottom: #272727 5px solid;
+    background: #232027;
+    border-bottom: #2f2f37 5px solid;
     padding-bottom: 20px;
     flex-wrap: wrap;
     align-content: center;
@@ -85,11 +85,11 @@ div{
 }
 .icons{
   padding: 10px;
-  border-bottom: #272727 5px solid;
-  background: #1d1d1d;
+  border-bottom: #2f2f37 5px solid;
 }
 .icons :hover{
-  background-color: #00ffea4a;
+  background-color: #00b3ff51;
+  border-radius: 80px;
 }
 button{
     border: none;

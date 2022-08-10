@@ -35,14 +35,12 @@ export default {
     font-weight: bold;
 }
 button{
-    background-color: turquoise;
     padding: 0px;
     padding-left: 70px;
     margin-bottom: 30px;
     padding-right: 70px;
     border: none;
     border-radius: 10px;
-    background-color: rgb(246, 41, 41);
 }
 
 </style>
