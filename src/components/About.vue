@@ -8,7 +8,6 @@
     </div>
 
   <div>
-      
       <h1>Victor Hugo</h1> 
       <a target="_blank" href="https://github.com/VictorHugofny"><button type="submit">GITHUB</button></a>
       <a target="_blank" href="https://www.linkedin.com/in/victor-hugo-santana/"><button class = "segundo" type="submit">Linkedin</button></a>
@@ -16,17 +15,17 @@
 
   
 
- </div>
-        <h1>Sobre mim</h1>
-        <p>Sou <strong> Victor Hugo</strong>, estudante de Ciencia da computação no IFBaiano, Sou <strong> desenvolvedor </strong> uso tecnologias como <strong>Javascript, Html, Css, Vue.js e Node, </strong>  essa pagina foi construida por mim como <strong> portifolio </strong> usando o framework <strong> Vue.js</strong>, Estagiando como programador <strong>Fullstack na Elogroup</strong> 
- </p> 
+</div>
+  <h1>Sobre mim</h1>
+  <p>Sou <strong> Victor Hugo</strong>, estudante de Ciencia da computação no IFBaiano, Sou <strong> desenvolvedor </strong> uso tecnologias como <strong>Javascript, Html, Css, Vue.js e Node, </strong>  essa pagina foi construida por mim como <strong> portifolio </strong> usando o framework <strong> Vue.js</strong>, Estagiando como programador <strong>Fullstack na Elogroup</strong></p> 
 </div>   
 <br>
 
 <div>
 
 <h1>Conhecimentos</h1>
-<div>
+
+<div class = 'infos'>
   <div class= "icons">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" width="55px">
     <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/vuejs/vuejs-original.svg" width="55px">
@@ -76,7 +75,10 @@ div{
 }
 .conhecimentos{
   width: 550px;
+  
 }
+
+
 .flex p {
   color: #0358a8;
 }
@@ -111,10 +113,14 @@ a, button{
   font-weight: bold;
 }
 .segundo{
-  background: #1d1d1d;
+  background: #232027;
   border: #3691e7 1px solid;
 }
 .segundo a{
   color: #3691e7;
+}
+
+.infos{
+  background: #00000000;
 }
 </style>
